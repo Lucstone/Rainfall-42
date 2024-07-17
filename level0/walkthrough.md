@@ -12,7 +12,7 @@ level0@RainFall:~$ ./level0 1234
 No !
 ```
 
-Etape 3 : Nous avons donc ouvert le decompileur ghidra et décompiler le binaire. Nous avons vu que le binaire prenait un argument et le comparait a une chaine de caractere. Si le resultat de la comparaison etait faux, le programme affichait 'No !' et s'arretait et si la combinaison etais 423, le programme lancerais un shell en /bin/sh.
+Etape 3 : Nous avons donc ouvert le decompileur ghidra et décompiler le binaire. Nous avons vu que le binaire prenait un argument et le comparait a un nombre. Si le resultat de la comparaison etait faux, le programme affichait 'No !' et s'arretait et si la combinaison etais 423, le programme lancerais un shell en /bin/sh.
 
 Etape 4 : Nous avons donc lancer le programme avec l'argument 423 et nous avons eu un shell. Nous avons ensuite tenter ls mais nous n'avions pas les droits pour executer la commande. Nous avons donc lancer la commande whoami pour voir quel utilisateur nous etions et nous avons vu que nous etions l'utilisateur level1.
 

@@ -40,7 +40,7 @@ Nous voyons que pendant le premier appel de strcpy(), on peux reecrire l'adresse
 
 Comme dans le level5 nous pouvons réecrire l'adresse de la fonction puts par celle de la fonction m.
 
-#### Etape 4 : Informations manquantes
+#### Etape 5 : Informations manquantes
 
 Il me manque l'offset pour déterminé a combien de caractère ce trouvera la nouvelle adresse a écrire
 J'ai généré un buffer grâce à : https://wiremask.eu/tools/buffer-overflow-pattern-generator
@@ -91,7 +91,7 @@ $(python -c 'print "\xf4\x84\x04\x08"')
 
 
 
-#### Etape 5 : Execution
+#### Etape 6 : Execution
 
 Il ne reste plus qu'a éxecuter le programme avec les 2 arguments precedents.
 

